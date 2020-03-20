@@ -133,7 +133,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
-			<version>[2.9.10.3,)</version>
+			<version>${dep.jackson.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -141,7 +141,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>[2.9.10.3,)</version>
+			<version>${dep.jackson.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -177,20 +177,6 @@
 			<groupId>com.facebook.airlift</groupId>
 			<artifactId>json</artifactId>
 			<version>0.187</version>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-core</artifactId>
-			<version>${dep.jackson.version}</version>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>${dep.jackson.version}</version>
 			<scope>test</scope>
 		</dependency>
 
